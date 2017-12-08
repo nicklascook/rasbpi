@@ -1,7 +1,7 @@
 var Lcd = require('lcd'),
     lcd = new Lcd({
-        rs: 12,
-        e: 21,
+        rs: 26,
+        e: 19,
         data: [13, 6, 5, 11],
         cols: 8,
         rows: 2
